@@ -7,79 +7,92 @@
 </head>
 <body>
     <!--Start container header -->
-    <header>
-        <a href="#">FAWZIUDOK</a>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
+    <header class="header">
+        <a class="header__link" href="#">FAWZIUDOK</a>
+        <nav class="header__navbar">
+            <ul class="header__navbar__list__item">
+                <li class="header__navbar__list__item"><a class="header__hiro__image__list__link" href="#">Home</a></li >
+                <li class="header__navbar__list__item"><a class="header__hiro__image__list__link" href="#">About Me</a></li >
+                <li class="header__navbar__list__item"><a class="header__hiro__image__list__link" href="#">Services</a></li >
+                <li class="header__navbar__list__item"><a class="header__hiro__image__list__link" href="#">Projects</a></li >
+                <li class="header__navbar__list__item"><a class="header__hiro__image__list__link" href="#">Testimonials</a></li >
+                <li class="header__navbar__list__item"><a class="header__hiro__image__list__link" href="#">Contact</a></li >
             </ul>
         </nav>
-        <button>Dawnlaond CV</button>
+        <button class="header__btn">Dawnlaond CV</button>
     </header>
     <!--end container header -->
 
     <!--start container header -->
-    <main>
+    <main class="main">
         <!--start section hiro -->
-        <section>
-            <div>
-                <div>
-                    <p>Hi I am</p>
-                    <h1>FAWZI Sayed</h1>
-                    <h2> & UX <span>Designer</span></h2>
+        <section class="main__hiro">
+            <div class="main__hiro__content">
+                <div class="main__hiro__content">
+                    <p class="main__hiro__content__paragraph">Hi I am</p>
+                    <div class="main__hiro__content__container">
+                        <h1 class="main__hiro__content__container__title">FAWZI Sayed</h1>
+                        <h2 class="main__hiro__content__container__subtitle"> & UX <span>Designer</span></h2>
+                    </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur, 
+                <p class="main__hiro__paragraph">Lorem ipsum dolor sit amet consectetur, 
                     adipisicing elit. Odio id optio voluptatum qui, 
                     facere vitae omnis ipsa temporibus ea ratione 
                     numquam error dolore sunt atque quasi possimus 
                     ipsum vel velit!
                 </p>
-                 <button>Hire Me</button>
+                 <button class="main__hiro__btn">Hire Me</button>
             </div>
-            <div>
-                <img src="./images/Group 2.png" alt="ma photo profil">
-                <ul>
-                    <li><a href="#"><img src="./images/Facebook.svg" alt="logo Facebook"></a></li>
-                    <li><a href="#"><img src="./images/Twitter.svg" alt="logo Twitter"></a></li>
-                    <li><a href="#"><img src="./images/Instagram.svg" alt="logo Instagram"></a></li>
-                    <li><a href="#"><img src="./images/LinkedIn.svg" alt="logo LinkedIn"></a></li>
+            <div class="main__hiro__image">
+                <img  class="main__hiro__image__img" src="./images/Group 2.png" alt="ma photo profil">
+                <ul class="main__hiro__image__list">
+                    <li class="main__hiro__image__list__item">
+                        <a href="#" class="main__hiro__image__list__item__link"><img class="main__hiro__image__list__item__link__img" src="./images/Facebook.svg" alt="logo Facebook"></a>
+                    </li>
+                    <li class="main__hiro__image__list__item">
+                        <a href="#" class="main__hiro__image__list__item__link"><img class="main__hiro__image__list__item__link__img" src="./images/Twitter.svg" alt="logo Twitter"></a>
+                    </li>
+                    <li class="main__hiro__image__list__item">
+                        <a href="#" class="main__hiro__image__list__item__link"><img class="main__hiro__image__list__item__link__img" src="./images/Instagram.svg" alt="logo Instagram"></a>
+                    </li>
+                    <li class="main_hiro__image__list__item">
+                        <a href="#" class="main__hiro__image__list__item__link"><img class="main__hiro__image__list__item__link__img" src="./images/LinkedIn.svg" alt="logo LinkedIn"></a>
+                    </li>
                 </ul>
             </div>
         </section>
         <!--End section hiro -->
 
         <!--start section about-me -->
-        <section>
-            <img src="./images/Group 2.png" alt="Ma photo de profil">
-            <div>
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                     elit. Consequuntur maxime dolorum sed totam. 
-                     Illum facilis perferendis eos quod laboriosam 
-                     ea. Quis quae voluptatem, facilis dignissimos 
-                     dicta in non libero aliquam.
-                </p>
-                <ul>
-                    <li>
-                        <label for="">UX</label>
-                        <input type="range" id="">
+        <section class="main__aboutMe">
+            <img class="main__aboutMe__img" src="./images/Group 2.png" alt="Ma photo de profil">
+            <div class="main__aboutMe__content">
+                <div class="main__aboutMe__content__">
+                    <h2 class="main__aboutMe__content__title">About Me</h2>
+                    <p class="main__aboutMe__content__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Consequuntur maxime dolorum sed totam. 
+                         Illum facilis perferendis eos quod laboriosam 
+                         ea. Quis quae voluptatem, facilis dignissimos 
+                         dicta in non libero aliquam.
+                    </p>
+                </div>
+               
+                <ul class="main__aboutMe__content__list">
+                    <li class="main__aboutMe__content__list__item">
+                        <label class="main__aboutMe__content__list__item__domain" for="">UX</label>
+                        <input class="main__aboutMe__content__list__item__input" type="range" id="">
                     </li>
-                    <li>
-                        <label for="">Website Design</label>
-                        <input type="range" id="">
-                    </li>
-                    <li>
-                        <label for="">App Design</label>
-                        <input type="range" id="">
-                    </li>
-                    <li>
-                        <label for="">Graphic Design</label>
-                        <input type="range" id="">
+                    <li class="main__aboutMe__content__list__item">
+                        <label class="main__aboutMe__content__list__item__domain" for="">Website Design</label>
+                        <input class="main__aboutMe__content__list__item__input" type="range" id="">
+                    </li >
+                    <li class="main__aboutMe__content__list__item">
+                        <label class="main__aboutMe__content__list__item__domain" for="">App Design</label>
+                        <input class="main__aboutMe__content__list__item__input" type="range" id="">
+                    </li >
+                    <li class="main__aboutMe__content__list__item">
+                        <label class="main__aboutMe__content__list__item__domain" for="">Graphic Design</label>
+                        <input class="main__aboutMe__content__list__item__input" type="range" id="">
                     </li>
                 </ul>
             </div>
@@ -87,41 +100,41 @@
         <!--end section about-me -->
 
         <!--start section services -->
-        <section>
-            <div>
-                <h2>Services</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <section class="main__services">
+            <div class="main__services__content">
+                <h2 class="main__services__content__title">Services</h2>
+                <p class="main__services__content__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Error, repellat accusamus ipsum veritatis iure perspiciatis. 
                     Blanditiis quo architecto ipsam aliquid beatae facere tempora 
                     alias, odio laudantium dolor corporis quisquam velit.
                 </p>
             </div>
-            <ul>
-                <li>
-                    <img src="./images/ui.svg" alt="Logo ui/ux">
-                    <h3>UI/UX</h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            <ul class="main__services__list">
+                <li class="main__services__list__item">
+                    <img class="main__services__list__item__img" src="./images/ui.svg" alt="Logo ui/ux">
+                    <h3 class="main__services__list__item__domain">UI/UX</h3>
+                    <P class="main__services__list__item__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Sed nemo expedita, quod eius possimus corrupti
                     </P>
                 </li>
-                <li>
-                    <img src="./images/web.svg" alt="Logo Web Design">
-                    <h3>Web Design</h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                <li class="main__services__list__item">
+                    <img class="main__services__list__item__img" src="./images/web.svg" alt="Logo Web Design">
+                    <h3 class="main__services__list__item__domain">Web Design</h3>
+                    <P class="main__services__list__item__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Sed nemo expedita, quod eius possimus corrupti
+                    </P>
+                </li >
+                <li class="main__services__list__item">
+                    <img class="main__services__list__item__img" src="./images/app.svg" alt="Logo app Design">
+                    <h3 class="main__services__list__item__domain">App Design</h3>
+                    <P class="main__services__list__item__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Sed nemo expedita, quod eius possimus corrupti
                     </P>
                 </li>
-                <li>
-                    <img src="./images/app.svg" alt="Logo app Design">
-                    <h3>App Design</h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Sed nemo expedita, quod eius possimus corrupti
-                    </P>
-                </li>
-                <li>
-                    <img src="./images/graphic.svg" alt="Logo Graphic Design">
-                    <h3>App Graphic</h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                <li class="main__services__list__item">
+                    <img class="main__services__list__item" src="./images/graphic.svg" alt="Logo Graphic Design">
+                    <h3 class="main__services__list__item__domain">App Graphic</h3>
+                    <P class="main__services__list__item__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Sed nemo expedita, quod eius possimus corrupti
                     </P>
                 </li>
@@ -131,98 +144,104 @@
 
         <!--Start section my-projects -->
         <section>
-            <div>
-                <h2>My Projects</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            <div class="main__myProjects">
+                <h2 class="main__myProjects__title">My Projects</h2>
+                <p class="main__myProjects__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Laborum illum, dolore, sapiente obcaecati vel temporibus 
                         laudantium voluptatum non perferendis inventore nisi 
                         consequuntur facilis modi optio voluptates saepe nemo dolor vero!
                 </p>
             </div>
-            <ul>
-                <li><button>All</button></li>
-                <li><button>UI/UX</button></li>
-                <li><button>Web Design</button></li>
-                <li><button>App Design</button></li>
-                <li><button>Graphic Design</button></li>
+            <ul class="main__myProjects__list">
+                <li class="main__myProjects__list__tem"><button class="myProjects__list__tem__btn">All</button></li >
+                <li class="main__myProjects__list__tem"><button class="myProjects__list__tem__btn">UI/UX</button></li >
+                <li class="main__myProjects__list__tem"><button class="myProjects__list__tem__btn">Web Design</button></li >
+                <li class="main__myProjects__list__tem"><button class="myProjects__list__tem__btn">App Design</button></li >
+                <li class="main__myProjects__list__tem"><button class="myProjects__list__tem__btn">Graphic Design</button></li >
             </ul>
-            <ul>
-                <li>
-                    <img src="./images/group24.png" alt="">
-                    <h3>Web Design</h3>
-                    <h4>AirColling Landing Page Design</h4>
+            <ul class="main__myProjects__listRealization">
+                <li class="main__myProjects__listRealization__item">
+                    <img class="main__myProjects__listRealization__item__img" src="./images/group24.png" alt="premier projet">
+                    <h3 class="main__myProjects__listRealization__item__title">Web Design</h3>
+                    <h4 class="main__myProjects__listRealization__item__subtitle">AirColling Landing Page Design</h4>
                 </li>
-                <li>
-                    <img src="./images/group24.png" alt="">
-                    <h3>Web Design</h3>
-                    <h4>Business Landing Page Design</h4>
+                <li class="main__myProjects__listRealization__item">
+                    <img class="main__myProjects__listRealization__item__img" src="./images/group24.png" alt="premier projet">
+                    <h3 class="main__myProjects__listRealization__item__title">Web Design</h3>
+                    <h4 class="myProjects__listRealization__item__subtitle">AirColling Landing Page Design</h4>
                 </li>
-                <li>
-                    <img src="./images/group24.png" alt="">
-                    <h3>Web Design</h3>
-                    <h4>Ecom Web Page Design</h4>
+                <li class="main__myProjects__listRealization__item">
+                    <img class="main__myProjects__listRealization__item__img" src="./images/group24.png" alt="premier projet">
+                    <h3 class="main__myProjects__listRealization__item__title">Web Design</h3>
+                    <h4 class="main__myProjects__listRealization__item__subtitle">AirColling Landing Page Design</h4>
                 </li>
             </ul>
         </section>
         <!--end section my-projects -->
 
         <!--Start section testimonials -->
-        <section>
-            <div>
-                <h2>Testimonials</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <section class="main__testimonials">
+            <div class="main__testimonials__content">
+                <h2 class="main__testimonials__content__title">Testimonials</h2>
+                <p class="main__testimonials__content__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     In sit et omnis molestias odit quibusdam, impedit ullam 
                     saepe accusantium praesentium illo corrupti nostrum ad! 
                     Saepe cupiditate nostrum quae aliquid quasi!
                 </p>
             </div>
             
-            <ul>
-                <li>
-                    <img src="./images/Ellipse10.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Expedita ex ipsum enim incidunt maxime, molestiae corrupti 
-                        dolore nemo nam? Quisquam vitae fuga est harum architecto 
-                        officia. Sapiente, architecto? Aliquam, dolorem.
-                    </p>
-                    <h3>name <span>CEO</span></h3>
+            <ul class="main__testimonials__list">
+                <li class="main__testimonials__list__item"><i>"</i>
+                    <img class="main__testimonials__list__item__img" src="./images/Ellipse10.png" alt="premier projet">
+                    <div class="main__testimonials__list__item__content">
+                        <p class="main__testimonials__list__item__conetnt__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Expedita ex ipsum enim incidunt maxime, molestiae corrupti 
+                            dolore nemo nam? Quisquam vitae fuga est harum architecto 
+                            officia. Sapiente, architecto? Aliquam, dolorem.<i>"</i>
+                        </p>
+                        <h3>name <span>CEO</span></h3>
+                    </div>
                 </li>
-                <li>
-                    <img src="./images/Ellipse10.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Expedita ex ipsum enim incidunt maxime, molestiae corrupti 
-                        dolore nemo nam? Quisquam vitae fuga est harum architecto 
-                        officia. Sapiente, architecto? Aliquam, dolorem.
-                    </p>
-                    <h3>name <span>CEO</span></h3>
+                <li class="main__testimonials__list__item"><i>"</i>
+                    <img class="main__testimonials__list__item__img" src="./images/Ellipse10.png" alt="premier projet">
+                    <div class="main__testimonials__list__item__content">
+                        <p class="main__testimonials__list__item__conetnt__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Expedita ex ipsum enim incidunt maxime, molestiae corrupti 
+                            dolore nemo nam? Quisquam vitae fuga est harum architecto 
+                            officia. Sapiente, architecto? Aliquam, dolorem.<i>"</i>
+                        </p>
+                        <h3>name <span>CEO</span></h3>
+                    </div>
                 </li>
-                <li>
-                    <img src="./images/Ellipse10.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Expedita ex ipsum enim incidunt maxime, molestiae corrupti 
-                        dolore nemo nam? Quisquam vitae fuga est harum architecto 
-                        officia. Sapiente, architecto? Aliquam, dolorem.
-                    </p>
-                    <h3>name <span>CEO</span></h3>
+                <li class="main__testimonials__list__item"><i>"</i>
+                    <img class="main__testimonials__list__item__img" src="./images/Ellipse10.png" alt="premier projet">
+                    <div class="main__testimonials__list__item__content">
+                        <p class="main__testimonials__list__item__conetnt__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Expedita ex ipsum enim incidunt maxime, molestiae corrupti 
+                            dolore nemo nam? Quisquam vitae fuga est harum architecto 
+                            officia. Sapiente, architecto? Aliquam, dolorem.<i>"</i>
+                        </p>
+                        <h3>name <span>CEO</span></h3>
+                    </div>
                 </li>
             </ul>
         </section>
         <!--Start section testimonials -->
 
         <!--Start section letsDesignTogether -->
-        <section>
-            <div>
-                <h2>lets Design Together </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+        <section class="main__letsDesignTogether">
+            <div class="main__letsDesignTogether__content">
+                <h2 class="main__letsDesignTogether__content__title">lets Design Together </h2>
+                <p class="main__letsDesignTogether__content__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing 
                     elit. Doloribus, quisquam placeat exercitationem 
                     quod magni sequi quaerat praesentium laborum eaque 
                     facilis. Minima voluptates reprehenderit vitae iste 
                     possimus molestias soluta cum totam?
                 </p>
             </div>
-            <form action="">
-                <input type="text" placeholder="Enter Your Email">
-                <input type="submit">
+            <form class="main__letsDesignTogether__form" action="">
+                <input  class="aboutMe__content__form__input" type="text" placeholder="Enter Your Email">
+                <input class="aboutMe__content__form_btnValider" type="submit">
             </form>
         </section>
         <!--Start section letsDesignTogethers -->
@@ -230,26 +249,26 @@
     <!--End container header -->
 
     <!--start container footer -->
-    <footer>
-        <div>
-            <a href="#">FAWZIUDOK</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
+    <footer class="footer">
+        <div class="footer__container">
+            <a class="footer__container__link" href="#">FAWZIUDOK</a>
+            <ul class="footer__listMenu">
+                <li class="footer__listMenu__item"><a class="footer__listMenu__item__link" href="#">Home</a></li >
+                <li class="footer__listMenu__item" ><a class="footer__listMenu__item__link" href="#">About Me</a></li >
+                <li class="footer__listMenu__item" ><a class="footer__listMenu__item__link" href="#">Services</a></li >
+                <li class="footer__listMenu__item" ><a class="footer__listMenu__item__link" href="#">Projects</a></li >
+                <li class="footer__listMenu__item" ><a class="footer__listMenu__item__link" href="#">Testimonials</a></li >
+                <li class="footer__listMenu__item" ><a class="footer__listMenu__item__link" href="#">Contact</a></li >
             </ul>
 
-            <ul>
-                <li><a href="#"><img src="./images/Facebook.svg" alt="logo Facebook"></a></li>
-                <li><a href="#"><img src="./images/Twitter.svg" alt="logo Twitter"></a></li>
-                <li><a href="#"><img src="./images/Instagram.svg" alt="logo Instagram"></a></li>
-                <li><a href="#"><img src="./images/LinkedIn.svg" alt="logo LinkedIn"></a></li>
+            <ul class="footer__container__listResaux">
+                <li class="footer__container__listResaux__item"><a class="footer__container__listResaux__item__link" href="#"><img src="./images/Facebook.svg" alt="logo Facebook"></a></li >
+                <li class="footer__container__listResaux__item"><a href="#"><img src="./images/Twitter.svg" alt="footer__container__listResaux__item__link logo Twitter"></a></li >
+                <li class="footer__container__listResaux__item"><a href="#"><img src="./images/Instagram.svg" alt="footer__container__listResaux__item__link logo Instagram"></a></li >
+                <li class="footer__container__listResaux__item"><a href="#"><img src="./images/LinkedIn.svg" alt="footer__container__listResaux__item__link logo LinkedIn"></a></li >
             </ul>
         </div>
-        <p>© 2023 FawziUiUx All Rights Reserved , Inc.</p>
+        <p class="footer__copyrigth">© 2023 FawziUiUx All Rights Reserved , Inc.</p>
     </footer>
     <!--end container footer -->
 </body>
