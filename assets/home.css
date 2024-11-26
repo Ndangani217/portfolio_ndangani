@@ -277,9 +277,110 @@ body{
         font-size: var(--font-size-21);
         font-weight: 400;
     }
-
     /*End style section services*/
     
+    /*Start style section my-projects*/
+    .main__myProjects{
+        display: flex;
+        flex-direction: column;
+        padding: var(--padding-24);
+    }
+
+    .main__myProjects__content__title{
+        font-size: 39px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .main__myProjects__content__paragraph{
+        line-height: normal;
+        font-size: 400;
+        text-align: center;
+        font-size: var(--font-size-21);
+        column-gap: 20px;
+    }
+
+    .main__myProjects__list{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .myProjects__list__tem__btn{
+        padding: 10px 10px;
+        outline: 1px solid #545454;
+        border: none;
+        border-radius: 12px;
+        font-size: var(--font-size-14);
+    }
+
+    .main__myProjects__listRealization{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .main__myProjects__listRealization__item__img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .main__myProjects__listRealization__item__title{
+        color: var(--orange-btn);
+        font-weight: 400;
+        font-size: var(--font-size-18);
+        line-height: normal;
+    }
+
+    .main__myProjects__listRealization__item__subtitle{
+        font-weight: 700;
+        font-size: var(--font-size-23);
+        color: #1E1E1E;
+    }
+    /*End style section my-projects*/
+
+    /*Start style section testimonials*/
+
+    .main__testimonials{
+        padding: var(--padding-24);
+    }
+
+    .main__testimonials__content__title{
+        font-size: 39px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .main__testimonials__content__paragraph{
+        line-height: normal;
+        font-size: 400;
+        text-align: center;
+        font-size: var(--font-size-21);
+    }
+
+    .main__testimonials__list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+    }
+    /*
+    .main__testimonials__list__item{
+        display: flex;
+        flex-direction: row;
+        padding: var(--padding-24);
+        column-gap: 12px;
+    }
+
+    .main__testimonials__list__item__img{
+        width: 235px;
+        height: auto;
+    }
+    End style section testimonials*/
+
     /*
     .footer{
     
