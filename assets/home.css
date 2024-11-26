@@ -23,6 +23,8 @@
     --black-800:#000000;
     --black-900:#000000;
 
+    --gris-fond:#F8F8F8;
+
     --font-size-55:3.833rem;
     --font-size-44:3.56rem;
     --font-size-35:2.444rem;
@@ -34,6 +36,7 @@
     --font-size-21:21px;
 
     --padding-24:24px;
+
 }
 
 body{
@@ -55,7 +58,7 @@ body{
     .header__logo{
         text-decoration: none;
         color: var(--black-50);
-        font-size: 28px;
+        font-size: var(--font-size-28)
     }
 
     .header__navbar__list{
@@ -76,7 +79,6 @@ body{
     .header__btn{
         display: none;
     }
-
     /*End style header*/
 
     /*start style section hiro*/
@@ -279,7 +281,7 @@ body{
     }
     /*End style section services*/
     
-    /*Start style section my-projects*/
+    /*Start style section my-projects*/ 
     .main__myProjects{
         display: flex;
         flex-direction: column;
@@ -291,6 +293,7 @@ body{
         text-align: center;
         font-weight: 600;
     }
+    
 
     .main__myProjects__content__paragraph{
         line-height: normal;
@@ -307,7 +310,7 @@ body{
         flex-direction: row;
         justify-content: space-between;
     }
-
+      
     .myProjects__list__tem__btn{
         padding: 10px 10px;
         outline: 1px solid #545454;
@@ -315,7 +318,7 @@ body{
         border-radius: 12px;
         font-size: var(--font-size-14);
     }
-
+ 
     .main__myProjects__listRealization{
         list-style: none;
         padding: 0;
@@ -324,36 +327,32 @@ body{
         row-gap: 24px;
     }
 
-    .main__myProjects__listRealization__item__img{
-        width: 100%;
-        object-fit: cover;
-    }
-
     .main__myProjects__listRealization__item__title{
         color: var(--orange-btn);
-        font-weight: 400;
         font-size: var(--font-size-18);
         line-height: normal;
     }
-
+  
     .main__myProjects__listRealization__item__subtitle{
         font-weight: 700;
         font-size: var(--font-size-23);
         color: #1E1E1E;
-    }
+    } 
     /*End style section my-projects*/
 
     /*Start style section testimonials*/
-
+    
     .main__testimonials{
         padding: var(--padding-24);
+        gap: 24px;
     }
-
+   
     .main__testimonials__content__title{
         font-size: 39px;
         text-align: center;
         font-weight: 600;
     }
+    
     .main__testimonials__content__paragraph{
         line-height: normal;
         font-size: 400;
@@ -364,28 +363,79 @@ body{
     .main__testimonials__list{
         display: flex;
         flex-direction: column;
+        justify-content: start;
         list-style: none;
         padding: 0;
+        gap: 24px;
     }
-    /*
+    
     .main__testimonials__list__item{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         padding: var(--padding-24);
         column-gap: 12px;
+        background-color:var(--gris-fond);
+        border-radius: 14px;
     }
 
     .main__testimonials__list__item__img{
-        width: 235px;
-        height: auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
     }
-    End style section testimonials*/
+    /*Start style section letsDesignTogether*/
+    .main__letsDesignTogether{
+        padding: var(--padding-24);
+        gap: 24px;
+        
+    }
+    .main__letsDesignTogether__content__title{
+        font-size: 39px;
+        text-align: center;
+        font-weight: 600;
+    }
 
-    /*
-    .footer{
+    .main__letsDesignTogether__content__paragraph{
+        line-height: normal;
+        font-size: 400;
+        text-align: center;
+        font-size: var(--font-size-21);
+        column-gap: 20px;
+    }
+
+    .main__letsDesignTogether__form{
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+    .main__letsDesignTogether__form__input{
+        outline: 1px solid #AFAFAF;
+        border: none;
+        background-color:var(--gris-fond);
+        width: 65%;
+        height: 52px;
+    }
+
+    .main__letsDesignTogether__form_btnValider{
+        height: 52px;
+        background-color: var(--orange-btn);
+        border-radius: 5px;
+        border: none;
+        font-size: 21px;
+        color: #fff;
+        font-weight: 400;
+        padding: 10px 20px;
+    }
     
-    }*/
+    /*End style section letsDesignTogether*/
 
+
+    /*End style section testimonials*/
+    .footer{
+        padding: 24PX 0 0;
+        background-color: var(--gris-fond);
+    }
     .footer__container{
         display: flex;
         flex-direction: column;
@@ -395,6 +445,7 @@ body{
     .footer__container__logo{
         text-decoration: none;
         color: var(--black-50);
+        font-size: var(--font-size-28)
     }
 
     .footer__container__listMenu{
@@ -408,7 +459,7 @@ body{
 
     .footer__container__listMenu__item__link{
         text-decoration: none;
-        font-size: var(--font-size-6);
+        font-size: var(--font-size-21);
         color: var(--black-500);
     }
     .footer__container__listResaux{
@@ -426,6 +477,8 @@ body{
         background-color:#545454;
         height: 64px;
         text-align: center;
+        align-content: center;
+        font-size: var(--font-size-21);
     }
 }
 
